@@ -25,20 +25,23 @@
   <main>
     <section id="home">
       <div class="top row valign-wrapper">
-        <span id="logo" class="col offset-m1">
+        <span id="logo" class="col m6 offset-m1">
           <img src="./images/logo.svg" alt="" srcset="">
         </span>
-        <button class="btn circular-button white col offset-m6" id="tryit-button">
-          Try It Free
-        </button>
+        <span class="col m6">
+          <button class="btn circular-button white col offset-m6" id="tryit-button">
+            Try It Free
+          </button>
+        </span>
+
       </div>
       <div class="content row valign-wrapper">
-        <div class="content-text col m5">
+        <div class="home-text col m5">
           <h2>Build The Community Your Fans Will Love</h2>
           <p> Huddle re-imagines the way we build communities. You have a voice, but so does your audience.
             Create connections with your users as you engage in genuine discussion.
           </p>
-          <button class="btn circular-button purple lighten-1" id="getStarted-button">Get Started For Free</button>
+          <button class="btn circular-button purple lighten-1 getStarted-button">Get Started For Free</button>
         </div>
         <div class="content-image responsive-img col">
           <img src="./images/illustration-mockups.svg" alt="" srcset="">
@@ -46,57 +49,91 @@
       </div>
     </section>
     <section id="grow">
-      <div class="content-text">
-        <h2>Grow Together</h2>
-        <p>Generate meaningful discussions with your audience and build a strong, loyal community.
+      <div class="content row valign-wrapper">
+        <div class="content-text col m6 offset-m1">
+          <h2>Grow Together</h2>
+          <p>Generate meaningful discussions with your audience and build a strong, loyal community.
             Think of the insightful conversations you miss out on with a feedback form.</p>
+        </div>
+        <div class="content-image col m6">
+          <img src="./images/illustration-grow-together.svg" alt="" srcset="">
+        </div>
+      </div>
+    </section>
+    <section id="flowing">
+      <div class="content row valign-wrapper">
+        <div class="content-image col m6 offset-m1">
+          <img src="./images/illustration-flowing-conversation.svg" alt="" srcset="">
+        </div>
+        <div class="content-text col m6">
+          <h2>Flowing Conversations</h2>
+          <p> You wouldn't paginate a conversation in real life, so why do it online? Our threads
+            have just-in-time loading for a more natural flow.</p>
+        </div>
+      </div>
+    </section>
+    <section id="users">
+      <div class="content row valign-wrapper">
+        <div class="content-text col m6 offset-m1">
+          <h2>Your Users</h2>
+          <p> It takes no time at all to integrate Huddle with your app's authentication solution.
+            This means, once signed in to your app, your users can start chatting immediately.</p>
+        </div>
+        <div class="content-image col m6">
+          <img src="./images/illustration-flowing-conversation.svg" alt="" srcset="">
+        </div>
       </div>
     </section>
   </main>
-
-
-
-
-
-
- 
-
-  Flowing Conversations
-
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads
-  have just-in-time loading for a more natural flow.
-
-  Your Users
-
-  It takes no time at all to integrate Huddle with your app's authentication solution.
-  This means, once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-
-  Get Started For Free
-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-  incididunt ut labore et dolore magna aliqua
-
-  +1-543-123-4567
-  example@huddle.com
-
-  About Us
-  What We Do
-  FAQ
-
-  Career
-  Blog
-  Contact Us
-
-  &copy; Copyright 2018 Huddle. All rights reserved.
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+  <div id="float-menu">
+    <h5>Ready To Build Your Community?</h5>
+    <button class="btn circular-button purple lighten-1 getStarted-button">
+      Get Started For Free</button>
+  </div>
+  <footer class="valign-wrapper">
+    <div class="content row valign-wrapper">
+      <div class="col m6 offset-m1" id="contact">
+        <div class="contact-text row">
+          <span id="footer-logo">
+            <img src="./images/logo-footer.svg" alt="" srcset="">
+          </span>
+          <span class="row contact-item ">
+            <p class="col m9">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua</p>
+          </span>
+          <span class="col m12 contact-item"><a href="">+1-543-123-4567</a></span>
+          <span class="col m12 contact-item"><a href="">example@huddle.com</a></span>
+        </div>
+      </div>
+      <div class="col m2">
+        <div class="options">
+          <ul>
+            <li><a href="">About Us</a></li>
+            <li><a href="">What We Do</a></li>
+            <li><a href="">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col m2 offset-m1">
+        <div class="options">
+          <ul>
+            <li><a href="">Career</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col m2">
+        <div class="social-media">
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Lucas Ferreira</a>.
+      </p>
+    </div>
   </footer>
 </body>
-
 </html>

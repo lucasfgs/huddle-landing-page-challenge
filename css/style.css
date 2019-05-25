@@ -1,8 +1,32 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: white;
+}
+a:hover{
+    border-bottom: 1px solid white;
+}
+
+p{
+    text-align: justify;
+}
+
+section{
+    height: 100vh;
+}
+
+footer{
+    height: 70vh;
+    background: rgb(0, 37, 46);
+    color: white;
+}
+
 #home{
     background-image: url("../images/bg-hero-desktop.svg");
-    height: 100vh;
-    font-family: 'Roboto', sans-serif;
 }
 
 .circular-button{
@@ -22,6 +46,14 @@
     height: 15vh;   
 }
 
+.home-text h2{
+    font-weight: 500;
+}
+
+.home-text p{
+    font-weight: 500;
+}
+
 .content{
     display: flex;
 }
@@ -32,10 +64,11 @@
 
 .content-text p{
     font-size: 18px;
+    color: rgb(140, 147, 153)
 }
 
-#getStarted-button{
-    width: 240px;
+.getStarted-button{
+    width: 280px;
     height: 50px;
     font-weight: bold;
 }
@@ -46,6 +79,18 @@
 
 .content-image img{
     height: 75vh;
+}
+
+#footer-logo img{
+    fill: white;
+}
+
+.contact-item{
+    margin: 10px 0;
+}
+
+.options ul li{
+    margin: 10px 0;
 }
 
 .attribution {
