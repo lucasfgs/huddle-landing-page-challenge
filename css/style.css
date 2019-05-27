@@ -33,8 +33,8 @@ footer {
 
 .circular-button {
     border-radius: 20px;
-    min-width: 170px;
-    min-height: 30px;
+    width: 170px;
+    height: 30px;
     text-transform: none
 }
 
@@ -52,6 +52,11 @@ footer {
     height: 40px;
     color: black;
     font-weight: bold;
+}
+
+#footer-logo img{
+    width: 200px;
+    height: 30px;
 }
 
 .top {
@@ -113,8 +118,24 @@ footer {
     fill: white;
 }
 
+footer .content{
+    margin-top: 100px;
+}
+
+#contact{
+    font-weight: 300;
+}
+
+#contact i{
+    margin-right: 15px;
+}
+
 .contact-item {
-    margin: 10px 0;
+    margin: 20px 0;
+}
+
+.contact-item p{
+    width: 80%;
 }
 
 .options ul li {

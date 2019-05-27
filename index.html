@@ -14,6 +14,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <!-- Main CSS Style -->
   <link rel="stylesheet" href="./css/style.css">
+  <!-- Font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
@@ -26,7 +29,7 @@
     <section id="home">
       <div class="top row valign-wrapper">
         <span id="logo" class="col m6">
-          <img src="./images/logo.svg" alt="" srcset="">
+          <img src="./images/logo.svg" alt="" srcset="" class="responsive-img">
         </span>
         <span class="col m4" id="tryit-button">
           <button class="btn circular-button white col offset-m6">
@@ -101,15 +104,17 @@
     <div class="content row valign-wrapper">
       <div class="col m6 offset-m1" id="contact">
         <div class="contact-text row">
-          <span id="footer-logo">
+          <span id="footer-logo" class="logo">
             <img src="./images/logo-footer.svg" alt="" srcset="">
           </span>
-          <span class="row contact-item ">
-            <p class="col m9">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua</p>
-          </span>
-          <span class="col m12 contact-item"><a href="">+1-543-123-4567</a></span>
-          <span class="col m12 contact-item"><a href="">example@huddle.com</a></span>
+          <ul>
+            <li class="contact-item">
+              <p><i class="fas fa-map-marker-alt"></i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqua</p>
+            </li>
+            <li class="contact-item"><a href=""><i class="fas fa-phone"></i>+1-543-123-4567</a></li>
+            <li class="contact-item"><a href=""><i class="fas fa-envelope"></i>example@huddle.com</a></li>
+          </ul>
         </div>
       </div>
       <div class="col m2">
