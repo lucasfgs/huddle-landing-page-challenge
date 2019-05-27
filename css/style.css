@@ -26,7 +26,6 @@ footer {
     color: white;
 }
 
-
 #home {
     background-image: url("../images/bg-hero-desktop.svg");
 }
@@ -38,12 +37,11 @@ footer {
     text-transform: none
 }
 
-
 #logo {
     margin-left: 3%;
 }
 
-#logo img{
+#logo img {
     width: 200px;
     height: 35px;
 }
@@ -54,7 +52,7 @@ footer {
     font-weight: bold;
 }
 
-#footer-logo img{
+#footer-logo img {
     width: 200px;
     height: 30px;
 }
@@ -118,15 +116,15 @@ footer {
     fill: white;
 }
 
-footer .content{
+footer .content {
     margin-top: 100px;
 }
 
-#contact{
+#contact {
     font-weight: 300;
 }
 
-#contact i{
+#contact i {
     margin-right: 15px;
 }
 
@@ -134,8 +132,26 @@ footer .content{
     margin: 20px 0;
 }
 
-.contact-item p{
-    width: 80%;
+.contact-item p {
+    width: 100%;
+}
+
+.social-media i {
+    font-size: 30px;
+}
+
+.social-media ul {
+    display: flex;
+}
+
+.social-media ul li {
+    margin: 0px 10px;
+}
+
+.social-media a:hover {
+    text-decoration: none;
+    border: 0px;
+    color: #ab47bc;
 }
 
 .options ul li {
@@ -145,6 +161,7 @@ footer .content{
 .attribution {
     font-size: 11px;
     text-align: center;
+    height: 0px;
 }
 
 .attribution a {
