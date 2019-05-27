@@ -81,6 +81,21 @@ footer{
     height: 75vh;
 }
 
+#float-menu{
+    position: relative;
+    border-radius: 7px;
+    background: white;
+    width: 50%;
+    height: 200px;
+    top: 90px;
+    box-shadow: 0px 0px 10px 1px black;
+}
+
+#float-menu h5{
+    font-weight: bold;
+    color: rgb(0, 37, 46);
+}
+
 #footer-logo img{
     fill: white;
 }
